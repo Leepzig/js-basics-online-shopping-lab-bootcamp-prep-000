@@ -62,4 +62,4 @@ function placeOrder(cardNumber) {
   return `Your total cost is $${total()}, which will be charged to the card ${creditNumber}.`
 }
 
-placeOrder(83296759)
+console.log(placeOrder(83296759))
