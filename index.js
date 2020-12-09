@@ -65,3 +65,6 @@ function placeOrder(cardNumber) {
 }
 
 console.log(placeOrder(111111))
+console.log(cart)
+
+
