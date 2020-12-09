@@ -47,9 +47,11 @@ function total() {
 function removeFromCart(item) {
   cart.forEach(function(object, index) {
     if (object.itemName === item ) {
-      
+      cart.splice(index, 1)
+      return cart
     }
   })
+  return "That item is not in your cart."
 }
 
 function placeOrder(cardNumber) {
