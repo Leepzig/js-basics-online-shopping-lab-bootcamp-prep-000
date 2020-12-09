@@ -45,7 +45,11 @@ function total() {
 }
 
 function removeFromCart(item) {
-  cart
+  cart.forEach(function(object, index) {
+    if (object.itemName === item ) {
+      
+    }
+  })
 }
 
 function placeOrder(cardNumber) {
