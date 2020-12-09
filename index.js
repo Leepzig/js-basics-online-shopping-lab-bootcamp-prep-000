@@ -64,7 +64,6 @@ function placeOrder(cardNumber) {
   return `Your total cost is $${totalCost}, which will be charged to the card ${cardNumber}.`
 }
 
-console.log(placeOrder(11111))
-console.log(cart)
+
 
 
